@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Export Expo web
-        run: npx expo export --platform web --output-dir dist --clear --base-url /Logic/
+        run: npx expo export --platform web --output-dir dist --clear
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
